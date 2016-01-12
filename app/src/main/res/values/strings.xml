@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">tdandroid</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="titre">SemiTan, le future</string>
+    <string name="arret">arret :</string>
+    <string name="temps">temps d'attente : </string>
+</resources>

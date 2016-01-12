@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp">
+
+    <ImageView
+        android:id="@+id/avatar"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        tools:background="#AAA" />
+
+    <TextView
+        android:id="@+id/pseudo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:textSize="25sp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@+id/avatar"
+        android:textStyle="bold"
+        tools:text="Arret" />
+
+    <TextView
+        android:id="@+id/text_temps"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:layout_marginTop="10dp"
+        android:layout_alignLeft="@+id/pseudo"
+        android:layout_below="@+id/pseudo"
+        tools:text="@string/temps" />
+
+    <TextView
+        android:id="@+id/temps"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:layout_alignTop="@+id/text_temps"
+        android:layout_toRightOf="@+id/text_temps"
+        android:layout_marginLeft="5dp"
+        tools:text="temps" />
+
+</RelativeLayout>
